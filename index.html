@@ -1,15 +1,15 @@
 <!-- Unit 3 Project
 Requirements
-[  ] Two External Links
+[ yes ] Two External Links
 [ yes ] Table (minimum 2 Columns by 3 Rows)
 [ yes ] Three CSS Rules
-[  ] Three Images
+[ yes ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include :hover Effect
-[ no ] Feature 2 - Change the Cursor
-[ no ] Feature 3 - Make a Background Color Semi-Transparent
-[ no ] Feature 4 - Include at Flip Card
+[ yes ] Feature 1 - Include :hover Effect
+[ yes ] Feature 2 - Change the Cursor
+[ yes ] Feature 3 - Make a Background Color Semi-Transparent
+[ yes ] Feature 4 - Include at Flip Card
 [ yes ] Feature 5 - Include at least two Internal links
 -->
 
@@ -25,7 +25,8 @@ Select ONE Additional Feature to Add
         background-repeat: no-repeat;
         background-attachment: fixed;
        width:fit-content;
-        
+       cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍪</text></svg>") 16 0,auto; /*!emojicursor.app*/
+      }
       
 
       h1{
@@ -58,11 +59,15 @@ Select ONE Additional Feature to Add
       }
 
       a:visited {
-        color: rgb(167, 107, 58);
+        color: rgb(255, 255, 255);
       }
 
       p{
         color: rgb(233, 200, 174);
+      }
+
+      .hover:hover{
+        background-color: rgb(151, 71, 17,.5);
       }
 
       .flip-card {
@@ -205,7 +210,7 @@ Select ONE Additional Feature to Add
   </div>
 </div>
   
-<p><strong>Step 1:</strong> Make the cookie dough and press it into a greased baking dish.<br>
+<p class="hover"><strong>Step 1:</strong> Make the cookie dough and press it into a greased baking dish.<br>
    <strong>Step 2:</strong>Make the brownie batter and spread it over the cookie layer. <br> 
    <strong>Step 3:</strong>Bake in the preheated oven until a toothpick comes out clean. <br>
    <strong>Step 4:</strong>Cut the brookies into bars. <br>
@@ -220,6 +225,15 @@ Select ONE Additional Feature to Add
     <li>Serves: 16</li>
   </ul>
 
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://lilluna.com/wp-content/uploads/2020/05/choc-macarons-resize-11.jpg" 
+      alt="Avatar" 
+      style="width: 500px;
+      height:300px;">
+    </div>
+    <div class="flip-card-back">
   <table>
     <thead>
       <tr>
@@ -246,11 +260,21 @@ Select ONE Additional Feature to Add
       </tr>
     </tbody>
   </table>
+  </div>
+  </div>
+</div>
 
-  <p><strong>Step 1:</strong> Do something.
+  <p class="hover"><strong>Step 1:</strong> Line baking sheet with a silicone baking mat.<br>
+    <strong>Step 2:</strong> Mix Ingredient, the egg whites and white sugar untill they have a soft fluffy texture.<br>
+    <strong>Step 3:</strong> mix ingredient, sift the confectuoners' sugar and ground almonds in a separate bowl.<br>
+    <strong>Step 4:</strong> mix a bit of each bowls together to create the batter and then with a spoon pour the batter onto the sheet in small circle shapes.<br>
+    <strong>Step 5:</strong> let the cookies stand out at room temp untill they form a hard skin on top for about an hour.<br>
+    <strong>Step 6:</strong> preheat the oven to 285 degrees F then set the cookies in the oven for about 10 mins.<br>
+    <strong>Step 7:</strong> add the original batter on one cookie before placing another one on top.<br>
+    <strong>Step 8:</strong> Enjoy.<br>
   </p>
 
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
+  <p><em>Source: <a href="https://www.allrecipes.com/recipe/223234/macaron-french-macaroon/">Macarons Recipe more details</a></em></p>
 
    <h2 id="Icecream">Icecream Cake</h2>
 
@@ -262,10 +286,10 @@ Select ONE Additional Feature to Add
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img src="https://beyondfrosting.com/wp-content/uploads/2022/10/Triple-Chocolate-Poke-Cake-021-2-300x350.jpg" 
+      <img src="https://www.justsotasty.com/wp-content/uploads/2021/05/Chocolate-Ice-Cream-Cake-6-480x270.jpg" 
       alt="Avatar" 
-      style="width: 300px;
-      ">
+      style="width: 500px;
+      height: 300px;">
     </div>
     <div class="flip-card-back">
   <table>
@@ -302,9 +326,8 @@ Select ONE Additional Feature to Add
   </div>
 </div>
 <br>
-<br>
-<br>
-  <p><strong>Step 1:</strong> Prep oven and Ingredient.<br>
+
+  <p class="hover"><strong>Step 1:</strong> Prep oven and Ingredient.<br>
     <strong>Step 2:</strong> Make chocolate cake batter and bake for about 28 mins.<br>
     <strong>Step 3:</strong> Smooth the Ice cream ontop of the baked cake.<br>
     <strong>Step 4:</strong> Enjoy!<br>
